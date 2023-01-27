@@ -1,6 +1,6 @@
 ---
  - name: "Get ping response"
-   hosts: all
+   hosts: win-2022
    tasks:
    - action: ping
      register: hello
