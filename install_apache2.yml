@@ -1,4 +1,4 @@
-- hosts: 192.168.147.181
+- hosts: ansibleslave1
   become: yes
   tasks:
 
