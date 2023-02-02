@@ -1,6 +1,6 @@
 ---
 - name: service module demo
-  hosts: win10x86
+  hosts: 192.168.147.186
   become: true
   tasks:
     - name: BITS
