@@ -1,0 +1,10 @@
+---
+- name: service module demo
+  hosts: win10x86
+  become: true
+  tasks:
+    - name: BITS
+      ansible.builtin.service:
+        name: BITS
+        state: restarted
+        enabled: true
